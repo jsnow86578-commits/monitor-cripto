@@ -4,6 +4,8 @@ Tablero interactivo para seguir **XRP, Cardano (ADA) y Algorand (ALGO)**: precio
 técnico de 4 horas con detección automática de patrones, alertas, fundamentales reales y canales oficiales.
 Funciona en escritorio y celular, se actualiza solo y no necesita instalar dependencias.
 
+**Online 24/7:** https://jsnow86578-commits.github.io/monitor-cripto/  ·  Repositorio: https://github.com/jsnow86578-commits/monitor-cripto
+
 ---
 
 ## Inicio rápido
@@ -140,9 +142,26 @@ tests/                     pruebas del motor técnico
 
 Si cambiás clases de Tailwind en el HTML o JS, recompilá el CSS: `npm install` y luego `npm run build:css`.
 
-## Publicación
+## Publicación (activa en GitHub Pages)
 
-Ver `deploy/PUBLICAR.md` (GitHub Pages + Actions gratis, Cloudflare Tunnel desde tu VM o un VPS).
+El sitio está en **https://jsnow86578-commits.github.io/monitor-cripto/** y no depende de ninguna computadora encendida:
+
+- **GitHub Actions** ejecuta `.github/workflows/publicar.yml` cada hora (minuto 7): corre solo las tareas
+  vencidas (precios y velas 1 h · Miedo y Codicia 3 h · historia y fundamentales 6 h · oficiales 12 h),
+  guarda `data/` en el repositorio y publica `index.html`, `assets/` y `data/` en GitHub Pages.
+- Los visitantes, además, consultan en vivo precios, sentimiento y velas desde su navegador.
+- **Forzar una actualización:** pestaña *Actions* → *Actualizar y publicar* → *Run workflow*
+  (vacío = solo lo vencido; `all` = todo).
+- **Clave recomendada:** una clave *Demo* gratuita de CoinGecko evita límites en los servidores compartidos
+  de GitHub. Se carga en *Settings → Secrets and variables → Actions → New repository secret* con el nombre
+  `COINGECKO_API_KEY` (también admite `CMC_API_KEY`, `MESSARI_API_KEY`, `GLASSNODE_API_KEY`).
+- **Costo:** $0 (repositorio público: Actions y Pages son gratuitos).
+- GitHub puede demorar unos minutos las ejecuciones programadas. Si un repositorio público pasa 60 días sin
+  actividad, GitHub pausa los workflows programados: los commits horarios de datos mantienen la actividad y,
+  si alguna vez se pausara, se reactiva desde *Actions* con un clic.
+- **Cambios de código:** al subir cambios a `main` el sitio se vuelve a publicar solo.
+
+Otras opciones (Cloudflare con acceso privado, VPS): `deploy/PUBLICAR.md`.
 
 ---
 
