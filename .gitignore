@@ -1,0 +1,20 @@
+# Claves locales (nunca subir)
+config.local.json
+.env
+
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
+package-lock.json
+
+# Temporales
+data/.tmp-*
+.DS_Store
+Thumbs.db
+
+# Sitio armado por el workflow
+_site/
+
+# Carpeta de salidas de la app de Claude
+Claude outputs/

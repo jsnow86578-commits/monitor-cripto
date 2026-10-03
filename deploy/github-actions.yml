@@ -1,0 +1,102 @@
+# Copia de referencia del workflow activo del repositorio (.github/workflows/publicar.yml).
+# GitHub ejecuta el archivo del repositorio; este es solo para consulta local.
+
+# Monitor Cripto — actualiza los datos y publica el sitio en GitHub Pages.
+#
+#   · Cada hora (minuto 7): corre SOLO las tareas vencidas según data/status.json
+#     (precios y velas 1 h · Miedo y Codicia 3 h · historia y fundamentales 6 h · oficiales 12 h),
+#     guarda data/ en el repositorio y publica index.html + assets/ + data/ en Pages.
+#   · Al subir cambios de código a main: solo publica.
+#   · Manual (Actions → "Actualizar y publicar" → Run workflow): permite forzar tareas,
+#     por ejemplo "all" o "fundamentals official".
+#
+# Claves opcionales (Settings → Secrets and variables → Actions → New repository secret):
+#   COINGECKO_API_KEY (Demo gratis, recomendada) · CMC_API_KEY · MESSARI_API_KEY · GLASSNODE_API_KEY
+
+name: Actualizar y publicar
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      tareas:
+        description: "Tareas a forzar (all, prices, candles, feargreed, history, fundamentals, official). Vacío = solo las vencidas."
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+      - "**.md"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: actualizar-y-publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v7
+
+      - name: Preparar Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Ejecutar tareas de datos
+        if: github.event_name != 'push'
+        env:
+          TAREAS: ${{ inputs.tareas }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
+          MESSARI_API_KEY: ${{ secrets.MESSARI_API_KEY }}
+          GLASSNODE_API_KEY: ${{ secrets.GLASSNODE_API_KEY }}
+        run: python scripts/monitor.py $TAREAS || echo "::warning::Alguna tarea falló; se publica igual con el último dato válido."
+
+      - name: Guardar datos en el repositorio
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data/."
+            exit 0
+          fi
+          git commit -q -m "datos: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for intento in 1 2 3; do
+            if git push -q; then exit 0; fi
+            git pull -q --rebase -X theirs || { git rebase --abort; git pull -q --no-rebase -X ours --no-edit; }
+          done
+          echo "::warning::No se pudo subir data/ al repositorio; el sitio se publica igual."
+
+      - name: Armar el sitio (solo index, assets y data)
+        run: |
+          mkdir -p _site
+          cp -r index.html assets data _site/
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v6
+
+      - name: Subir el sitio
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

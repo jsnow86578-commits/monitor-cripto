@@ -1,0 +1,9 @@
+{
+  "_ayuda": "Copiá este archivo como config.local.json y completá solo las claves que tengas. Nunca se publica ni se sirve por web.",
+  "COINGECKO_API_KEY": "",
+  "COINGECKO_PRO": false,
+  "CMC_API_KEY": "",
+  "MESSARI_API_KEY": "",
+  "GLASSNODE_API_KEY": "",
+  "GITHUB_TOKEN": ""
+}
