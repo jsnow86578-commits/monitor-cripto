@@ -63,8 +63,9 @@
         <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#chart">Gráfico 4h</a>
         <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#pulse">Pulso técnico</a>
         <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#trends">Tendencias</a>
+        <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#news">Noticias</a>
         <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#fundamentals">Fundamentales</a>
-        <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#news">Oficiales y noticias</a>
+        <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#official">Oficiales</a>
         <a class="rounded-lg px-2.5 py-1 no-underline hover:bg-surface-2" href="#sources">Fuentes</a>
       </nav>
     </div>
@@ -186,28 +187,15 @@
       </article>
     </section>
 
-    <!-- ===================================================== Fundamentales -->
-    <section id="fundamentals" aria-labelledby="fund-title">
-      <div class="mb-3 flex flex-wrap items-end justify-between gap-2">
-        <div>
-          <h2 id="fund-title" class="section-title">Fundamentales</h2>
-          <p class="section-sub">Mercado, adopción DeFi, actividad de red y desarrollo · CoinMarketCap · Messari · DefiLlama · GitHub · Yahoo Finance · exploradores oficiales</p>
-        </div>
-        <span class="section-sub" id="fund-time"></span>
-      </div>
-      <div id="fund-grid" class="grid grid-cols-1 gap-4 lg:grid-cols-3"></div>
-    </section>
-
-    <!-- ========================================== Oficiales y noticias -->
+    <!-- ======================================================== Noticias -->
     <section id="news" aria-labelledby="news-title">
       <div class="mb-3 flex flex-wrap items-end justify-between gap-2">
         <div>
-          <h2 id="news-title" class="section-title">Fuentes oficiales y noticias</h2>
+          <h2 id="news-title" class="section-title">Noticias</h2>
           <p class="section-sub">Ripple · XRPL.org · Cardano · Algorand Foundation · Cryptodaily · Yahoo Finance — clasificadas por tema</p>
         </div>
         <span class="section-sub" id="news-time"></span>
       </div>
-      <div id="official-cards" class="mb-4 grid grid-cols-1 gap-4 lg:grid-cols-3"></div>
       <article class="card card-pad">
         <div class="mb-2 flex flex-wrap items-center gap-2">
           <div class="seg" role="group" aria-label="Tipo de fuente" id="news-kind">
@@ -221,6 +209,30 @@
         <div id="news-list"></div>
         <div class="mt-2 text-center"><button type="button" class="btn" id="news-more" hidden>Ver más</button></div>
       </article>
+    </section>
+
+    <!-- ===================================================== Fundamentales -->
+    <section id="fundamentals" aria-labelledby="fund-title">
+      <div class="mb-3 flex flex-wrap items-end justify-between gap-2">
+        <div>
+          <h2 id="fund-title" class="section-title">Fundamentales</h2>
+          <p class="section-sub">Mercado, adopción DeFi, actividad de red y desarrollo · CoinMarketCap · Messari · DefiLlama · GitHub · Yahoo Finance · exploradores oficiales</p>
+        </div>
+        <span class="section-sub" id="fund-time"></span>
+      </div>
+      <div id="fund-grid" class="grid grid-cols-1 gap-4 lg:grid-cols-3"></div>
+    </section>
+
+    <!-- ================================================ Fuentes oficiales -->
+    <section id="official" aria-labelledby="official-title">
+      <div class="mb-3 flex flex-wrap items-end justify-between gap-2">
+        <div>
+          <h2 id="official-title" class="section-title">Fuentes oficiales</h2>
+          <p class="section-sub">ripple.com/xrp · cardanofoundation.org · algorand.co — datos y últimas publicaciones de cada proyecto</p>
+        </div>
+        <span class="section-sub" id="official-time"></span>
+      </div>
+      <div id="official-cards" class="grid grid-cols-1 gap-4 lg:grid-cols-3"></div>
     </section>
 
     <!-- ===================================================== Directorio -->

@@ -684,6 +684,7 @@
     clear(wrap);
     const O = D().official, F = D().fundamentals;
     const news = (O && O.news) || [];
+    const ot = $('#official-time'); if (ot) ot.textContent = O && O.fetched_at ? 'actualizado ' + fmtAgo(O.fetched_at) : '';
     cfg.coins.forEach((c) => {
       const card = h('article', { class: 'card card-pad flex flex-col gap-2' });
       add(card, h('div', { class: 'flex items-center gap-3' }, coinBadge(c.key, 'h-8 w-8'),
