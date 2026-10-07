@@ -37,13 +37,13 @@
       "next_due": "2026-10-07T17:19:35Z"
     },
     "fundamentals": {
-      "last_run": "2026-10-07T07:23:01Z",
+      "last_run": "2026-10-07T13:23:15Z",
       "ok": true,
-      "duration_s": 84.54,
+      "duration_s": 50.86,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-10-07T07:23:01Z",
-      "next_due": "2026-10-07T13:23:01Z"
+      "last_ok": "2026-10-07T13:23:15Z",
+      "next_due": "2026-10-07T19:23:15Z"
     },
     "official": {
       "last_run": "2026-10-07T03:20:15Z",
@@ -106,34 +106,34 @@
       "label": "CoinGecko · perfil",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:21:41Z",
+      "checked_at": "2026-10-07T13:22:29Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:21:41Z"
+      "last_ok": "2026-10-07T13:22:29Z"
     },
     "coinmarketcap": {
       "ok": true,
       "label": "CoinMarketCap",
       "error": null,
       "note": "endpoint público",
-      "checked_at": "2026-10-07T07:21:43Z",
+      "checked_at": "2026-10-07T13:22:31Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:21:43Z"
+      "last_ok": "2026-10-07T13:22:31Z"
     },
     "messari": {
       "ok": true,
       "label": "Messari",
       "error": null,
       "note": "taxonomía pública",
-      "checked_at": "2026-10-07T07:21:43Z",
+      "checked_at": "2026-10-07T13:22:32Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:21:43Z"
+      "last_ok": "2026-10-07T13:22:32Z"
     },
     "glassnode": {
       "ok": null,
       "label": "Glassnode",
       "error": null,
       "note": "requiere API key (plan pago para XRP/ADA/ALGO)",
-      "checked_at": "2026-10-07T07:21:43Z",
+      "checked_at": "2026-10-07T13:22:32Z",
       "job": "fundamentals"
     },
     "defillama": {
@@ -141,72 +141,72 @@
       "label": "DefiLlama",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:22:14Z",
+      "checked_at": "2026-10-07T13:22:44Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:22:14Z"
+      "last_ok": "2026-10-07T13:22:44Z"
     },
     "github": {
       "ok": true,
       "label": "GitHub",
       "error": null,
-      "checked_at": "2026-10-07T07:22:43Z",
+      "checked_at": "2026-10-07T13:22:59Z",
       "job": "fundamentals",
       "note": "con token",
-      "last_ok": "2026-10-07T07:22:43Z"
+      "last_ok": "2026-10-07T13:22:59Z"
     },
     "network_xrp": {
       "ok": true,
       "label": "XRPL · XRPScan",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:22:45Z",
+      "checked_at": "2026-10-07T13:23:00Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:22:45Z"
+      "last_ok": "2026-10-07T13:23:00Z"
     },
     "network_ada": {
       "ok": true,
       "label": "Cardano · Koios",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:22:48Z",
+      "checked_at": "2026-10-07T13:23:03Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:22:48Z"
+      "last_ok": "2026-10-07T13:23:03Z"
     },
     "network_algo": {
       "ok": true,
       "label": "Algorand Foundation · métricas",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:22:53Z",
+      "checked_at": "2026-10-07T13:23:07Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:22:53Z"
+      "last_ok": "2026-10-07T13:23:07Z"
     },
     "yahoo": {
       "ok": true,
       "label": "Yahoo Finance",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:22:56Z",
+      "checked_at": "2026-10-07T13:23:11Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:22:56Z"
+      "last_ok": "2026-10-07T13:23:11Z"
     },
     "cryptodaily": {
       "ok": true,
       "label": "Cryptodaily",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:22:56Z",
+      "checked_at": "2026-10-07T13:23:11Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:22:56Z"
+      "last_ok": "2026-10-07T13:23:11Z"
     },
     "yahoo_news": {
       "ok": true,
       "label": "Yahoo Finance · noticias",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-07T07:23:01Z",
+      "checked_at": "2026-10-07T13:23:15Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-07T07:23:01Z"
+      "last_ok": "2026-10-07T13:23:15Z"
     },
     "ripple_insights": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-10-07T12:26:35Z"
+  "generated_at": "2026-10-07T13:23:15Z"
 }
