@@ -1,22 +1,22 @@
 {
   "jobs": {
     "prices": {
-      "last_run": "2026-10-09T02:18:28Z",
+      "last_run": "2026-10-09T03:20:23Z",
       "ok": true,
-      "duration_s": 0.87,
+      "duration_s": 1.41,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-09T02:18:28Z",
-      "next_due": "2026-10-09T03:18:28Z"
+      "last_ok": "2026-10-09T03:20:23Z",
+      "next_due": "2026-10-09T04:20:23Z"
     },
     "candles": {
-      "last_run": "2026-10-09T02:18:30Z",
+      "last_run": "2026-10-09T03:20:26Z",
       "ok": true,
-      "duration_s": 2.68,
+      "duration_s": 3.7,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-09T02:18:30Z",
-      "next_due": "2026-10-09T03:18:30Z"
+      "last_ok": "2026-10-09T03:20:26Z",
+      "next_due": "2026-10-09T04:20:26Z"
     },
     "feargreed": {
       "last_run": "2026-10-09T00:31:51Z",
@@ -28,13 +28,13 @@
       "next_due": "2026-10-09T03:31:51Z"
     },
     "history": {
-      "last_run": "2026-10-08T20:21:32Z",
+      "last_run": "2026-10-09T03:20:37Z",
       "ok": true,
-      "duration_s": 8.5,
+      "duration_s": 10.54,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-10-08T20:21:32Z",
-      "next_due": "2026-10-09T02:21:32Z"
+      "last_ok": "2026-10-09T03:20:37Z",
+      "next_due": "2026-10-09T09:20:37Z"
     },
     "fundamentals": {
       "last_run": "2026-10-08T22:20:16Z",
@@ -61,18 +61,18 @@
       "label": "CoinGecko",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-09T02:18:27Z",
+      "checked_at": "2026-10-09T03:20:22Z",
       "job": "prices",
-      "last_ok": "2026-10-09T02:18:27Z"
+      "last_ok": "2026-10-09T03:20:22Z"
     },
     "binance": {
       "ok": true,
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-09T02:18:30Z",
-      "job": "candles",
-      "last_ok": "2026-10-09T02:18:30Z"
+      "checked_at": "2026-10-09T03:20:37Z",
+      "job": "history",
+      "last_ok": "2026-10-09T03:20:37Z"
     },
     "alternative": {
       "ok": true,
@@ -97,9 +97,9 @@
       "label": "CoinGecko · historia",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-08T20:21:30Z",
+      "checked_at": "2026-10-09T03:20:33Z",
       "job": "history",
-      "last_ok": "2026-10-08T20:21:30Z"
+      "last_ok": "2026-10-09T03:20:33Z"
     },
     "coingecko_profile": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-10-09T02:18:30Z"
+  "generated_at": "2026-10-09T03:20:37Z"
 }
