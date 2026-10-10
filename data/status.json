@@ -1,22 +1,22 @@
 {
   "jobs": {
     "prices": {
-      "last_run": "2026-10-10T14:17:17Z",
+      "last_run": "2026-10-10T15:17:06Z",
       "ok": true,
-      "duration_s": 0.98,
+      "duration_s": 0.81,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-10T14:17:17Z",
-      "next_due": "2026-10-10T15:17:17Z"
+      "last_ok": "2026-10-10T15:17:06Z",
+      "next_due": "2026-10-10T16:17:06Z"
     },
     "candles": {
-      "last_run": "2026-10-10T14:17:20Z",
+      "last_run": "2026-10-10T15:17:09Z",
       "ok": true,
-      "duration_s": 2.32,
+      "duration_s": 2.48,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-10T14:17:20Z",
-      "next_due": "2026-10-10T15:17:20Z"
+      "last_ok": "2026-10-10T15:17:09Z",
+      "next_due": "2026-10-10T16:17:09Z"
     },
     "feargreed": {
       "last_run": "2026-10-10T12:22:21Z",
@@ -61,18 +61,18 @@
       "label": "CoinGecko",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-10T14:17:17Z",
+      "checked_at": "2026-10-10T15:17:06Z",
       "job": "prices",
-      "last_ok": "2026-10-10T14:17:17Z"
+      "last_ok": "2026-10-10T15:17:06Z"
     },
     "binance": {
       "ok": true,
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-10T14:17:20Z",
+      "checked_at": "2026-10-10T15:17:09Z",
       "job": "candles",
-      "last_ok": "2026-10-10T14:17:20Z"
+      "last_ok": "2026-10-10T15:17:09Z"
     },
     "alternative": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-10-10T14:17:20Z"
+  "generated_at": "2026-10-10T15:17:09Z"
 }
