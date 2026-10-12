@@ -1,22 +1,22 @@
 {
   "jobs": {
     "prices": {
-      "last_run": "2026-10-12T22:18:52Z",
+      "last_run": "2026-10-12T23:19:20Z",
       "ok": true,
-      "duration_s": 1.28,
+      "duration_s": 0.79,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-12T22:18:52Z",
-      "next_due": "2026-10-12T23:18:52Z"
+      "last_ok": "2026-10-12T23:19:20Z",
+      "next_due": "2026-10-13T00:19:20Z"
     },
     "candles": {
-      "last_run": "2026-10-12T22:18:55Z",
+      "last_run": "2026-10-12T23:19:22Z",
       "ok": true,
-      "duration_s": 2.56,
+      "duration_s": 2.11,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-12T22:18:55Z",
-      "next_due": "2026-10-12T23:18:55Z"
+      "last_ok": "2026-10-12T23:19:22Z",
+      "next_due": "2026-10-13T00:19:22Z"
     },
     "feargreed": {
       "last_run": "2026-10-12T22:18:55Z",
@@ -37,13 +37,13 @@
       "next_due": "2026-10-13T02:20:43Z"
     },
     "fundamentals": {
-      "last_run": "2026-10-12T16:21:46Z",
+      "last_run": "2026-10-12T23:20:16Z",
       "ok": true,
-      "duration_s": 59.88,
+      "duration_s": 54.01,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-10-12T16:21:46Z",
-      "next_due": "2026-10-12T22:21:46Z"
+      "last_ok": "2026-10-12T23:20:16Z",
+      "next_due": "2026-10-13T05:20:16Z"
     },
     "official": {
       "last_run": "2026-10-12T21:18:28Z",
@@ -61,18 +61,18 @@
       "label": "CoinGecko",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T22:18:51Z",
+      "checked_at": "2026-10-12T23:19:20Z",
       "job": "prices",
-      "last_ok": "2026-10-12T22:18:51Z"
+      "last_ok": "2026-10-12T23:19:20Z"
     },
     "binance": {
       "ok": true,
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T22:18:55Z",
+      "checked_at": "2026-10-12T23:19:22Z",
       "job": "candles",
-      "last_ok": "2026-10-12T22:18:55Z"
+      "last_ok": "2026-10-12T23:19:22Z"
     },
     "alternative": {
       "ok": true,
@@ -106,34 +106,34 @@
       "label": "CoinGecko · perfil",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:20:51Z",
+      "checked_at": "2026-10-12T23:19:27Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:20:51Z"
+      "last_ok": "2026-10-12T23:19:27Z"
     },
     "coinmarketcap": {
       "ok": true,
       "label": "CoinMarketCap",
       "error": null,
       "note": "endpoint público",
-      "checked_at": "2026-10-12T16:20:53Z",
+      "checked_at": "2026-10-12T23:19:29Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:20:53Z"
+      "last_ok": "2026-10-12T23:19:29Z"
     },
     "messari": {
       "ok": true,
       "label": "Messari",
       "error": null,
       "note": "taxonomía pública",
-      "checked_at": "2026-10-12T16:20:53Z",
+      "checked_at": "2026-10-12T23:19:33Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:20:53Z"
+      "last_ok": "2026-10-12T23:19:33Z"
     },
     "glassnode": {
       "ok": null,
       "label": "Glassnode",
       "error": null,
       "note": "requiere API key (plan pago para XRP/ADA/ALGO)",
-      "checked_at": "2026-10-12T16:20:53Z",
+      "checked_at": "2026-10-12T23:19:33Z",
       "job": "fundamentals"
     },
     "defillama": {
@@ -141,72 +141,72 @@
       "label": "DefiLlama",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:21:13Z",
+      "checked_at": "2026-10-12T23:19:40Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:21:13Z"
+      "last_ok": "2026-10-12T23:19:40Z"
     },
     "github": {
       "ok": true,
       "label": "GitHub",
       "error": null,
-      "checked_at": "2026-10-12T16:21:30Z",
+      "checked_at": "2026-10-12T23:19:55Z",
       "job": "fundamentals",
       "note": "con token",
-      "last_ok": "2026-10-12T16:21:30Z"
+      "last_ok": "2026-10-12T23:19:55Z"
     },
     "network_xrp": {
       "ok": true,
       "label": "XRPL · XRPScan",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:21:31Z",
+      "checked_at": "2026-10-12T23:19:57Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:21:31Z"
+      "last_ok": "2026-10-12T23:19:57Z"
     },
     "network_ada": {
       "ok": true,
       "label": "Cardano · Koios",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:21:34Z",
+      "checked_at": "2026-10-12T23:20:00Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:21:34Z"
+      "last_ok": "2026-10-12T23:20:00Z"
     },
     "network_algo": {
       "ok": true,
       "label": "Algorand Foundation · métricas",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:21:38Z",
+      "checked_at": "2026-10-12T23:20:09Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:21:38Z"
+      "last_ok": "2026-10-12T23:20:09Z"
     },
     "yahoo": {
       "ok": true,
       "label": "Yahoo Finance",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:21:42Z",
+      "checked_at": "2026-10-12T23:20:12Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:21:42Z"
+      "last_ok": "2026-10-12T23:20:12Z"
     },
     "cryptodaily": {
       "ok": true,
       "label": "Cryptodaily",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:21:42Z",
+      "checked_at": "2026-10-12T23:20:12Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:21:42Z"
+      "last_ok": "2026-10-12T23:20:12Z"
     },
     "yahoo_news": {
       "ok": true,
       "label": "Yahoo Finance · noticias",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-12T16:21:46Z",
+      "checked_at": "2026-10-12T23:20:16Z",
       "job": "fundamentals",
-      "last_ok": "2026-10-12T16:21:46Z"
+      "last_ok": "2026-10-12T23:20:16Z"
     },
     "ripple_insights": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-10-12T22:18:55Z"
+  "generated_at": "2026-10-12T23:20:16Z"
 }
