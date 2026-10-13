@@ -1,31 +1,31 @@
 {
   "jobs": {
     "prices": {
-      "last_run": "2026-10-13T10:22:04Z",
+      "last_run": "2026-10-13T11:21:35Z",
       "ok": true,
-      "duration_s": 1.22,
+      "duration_s": 0.99,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-13T10:22:04Z",
-      "next_due": "2026-10-13T11:22:04Z"
+      "last_ok": "2026-10-13T11:21:35Z",
+      "next_due": "2026-10-13T12:21:35Z"
     },
     "candles": {
-      "last_run": "2026-10-13T10:22:06Z",
+      "last_run": "2026-10-13T11:21:37Z",
       "ok": true,
-      "duration_s": 2.42,
+      "duration_s": 1.71,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-10-13T10:22:06Z",
-      "next_due": "2026-10-13T11:22:06Z"
+      "last_ok": "2026-10-13T11:21:37Z",
+      "next_due": "2026-10-13T12:21:37Z"
     },
     "feargreed": {
-      "last_run": "2026-10-13T07:24:47Z",
+      "last_run": "2026-10-13T11:21:37Z",
       "ok": true,
-      "duration_s": 0.42,
+      "duration_s": 0.36,
       "error": null,
       "interval_s": 10800,
-      "last_ok": "2026-10-13T07:24:47Z",
-      "next_due": "2026-10-13T10:24:47Z"
+      "last_ok": "2026-10-13T11:21:37Z",
+      "next_due": "2026-10-13T14:21:37Z"
     },
     "history": {
       "last_run": "2026-10-13T08:23:40Z",
@@ -61,36 +61,36 @@
       "label": "CoinGecko",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-13T10:22:03Z",
+      "checked_at": "2026-10-13T11:21:34Z",
       "job": "prices",
-      "last_ok": "2026-10-13T10:22:03Z"
+      "last_ok": "2026-10-13T11:21:34Z"
     },
     "binance": {
       "ok": true,
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-13T10:22:06Z",
+      "checked_at": "2026-10-13T11:21:37Z",
       "job": "candles",
-      "last_ok": "2026-10-13T10:22:06Z"
+      "last_ok": "2026-10-13T11:21:37Z"
     },
     "alternative": {
       "ok": true,
       "label": "Alternative.me",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-13T07:24:47Z",
+      "checked_at": "2026-10-13T11:21:37Z",
       "job": "feargreed",
-      "last_ok": "2026-10-13T07:24:47Z"
+      "last_ok": "2026-10-13T11:21:37Z"
     },
     "cmc_fng": {
       "ok": true,
       "label": "CoinMarketCap · Miedo y Codicia",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-13T07:24:47Z",
+      "checked_at": "2026-10-13T11:21:37Z",
       "job": "feargreed",
-      "last_ok": "2026-10-13T07:24:47Z"
+      "last_ok": "2026-10-13T11:21:37Z"
     },
     "coingecko_history": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-10-13T10:22:06Z"
+  "generated_at": "2026-10-13T11:21:37Z"
 }
