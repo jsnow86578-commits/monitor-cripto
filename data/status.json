@@ -28,13 +28,13 @@
       "next_due": "2026-10-15T00:29:29Z"
     },
     "history": {
-      "last_run": "2026-10-14T15:35:53Z",
+      "last_run": "2026-10-14T22:28:30Z",
       "ok": true,
-      "duration_s": 8.4,
+      "duration_s": 8.46,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-10-14T15:35:53Z",
-      "next_due": "2026-10-14T21:35:53Z"
+      "last_ok": "2026-10-14T22:28:30Z",
+      "next_due": "2026-10-15T04:28:30Z"
     },
     "fundamentals": {
       "last_run": "2026-10-14T21:30:45Z",
@@ -46,13 +46,13 @@
       "next_due": "2026-10-15T03:30:45Z"
     },
     "official": {
-      "last_run": "2026-10-14T09:33:10Z",
+      "last_run": "2026-10-14T22:28:32Z",
       "ok": true,
-      "duration_s": 1.63,
+      "duration_s": 1.88,
       "error": null,
       "interval_s": 43200,
-      "last_ok": "2026-10-14T09:33:10Z",
-      "next_due": "2026-10-14T21:33:10Z"
+      "last_ok": "2026-10-14T22:28:32Z",
+      "next_due": "2026-10-15T10:28:32Z"
     }
   },
   "sources": {
@@ -70,9 +70,9 @@
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-14T21:29:29Z",
-      "job": "candles",
-      "last_ok": "2026-10-14T21:29:29Z"
+      "checked_at": "2026-10-14T22:28:30Z",
+      "job": "history",
+      "last_ok": "2026-10-14T22:28:30Z"
     },
     "alternative": {
       "ok": true,
@@ -97,9 +97,9 @@
       "label": "CoinGecko · historia",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-14T15:35:51Z",
+      "checked_at": "2026-10-14T22:28:28Z",
       "job": "history",
-      "last_ok": "2026-10-14T15:35:51Z"
+      "last_ok": "2026-10-14T22:28:28Z"
     },
     "coingecko_profile": {
       "ok": true,
@@ -213,72 +213,72 @@
       "label": "Ripple Insights",
       "error": null,
       "note": "9 artículos",
-      "checked_at": "2026-10-14T09:33:08Z",
+      "checked_at": "2026-10-14T22:28:31Z",
       "job": "official",
-      "last_ok": "2026-10-14T09:33:08Z"
+      "last_ok": "2026-10-14T22:28:31Z"
     },
     "xrpl_blog": {
       "ok": true,
       "label": "XRPL.org Blog",
       "error": null,
       "note": "15 artículos",
-      "checked_at": "2026-10-14T09:33:09Z",
+      "checked_at": "2026-10-14T22:28:31Z",
       "job": "official",
-      "last_ok": "2026-10-14T09:33:09Z"
+      "last_ok": "2026-10-14T22:28:31Z"
     },
     "cardano_news": {
       "ok": true,
       "label": "Cardano.org",
       "error": null,
       "note": "15 artículos",
-      "checked_at": "2026-10-14T09:33:09Z",
+      "checked_at": "2026-10-14T22:28:31Z",
       "job": "official",
-      "last_ok": "2026-10-14T09:33:09Z"
+      "last_ok": "2026-10-14T22:28:31Z"
     },
     "algorand_news": {
       "ok": true,
       "label": "Algorand Foundation",
       "error": null,
       "note": "10 artículos",
-      "checked_at": "2026-10-14T09:33:09Z",
+      "checked_at": "2026-10-14T22:28:32Z",
       "job": "official",
-      "last_ok": "2026-10-14T09:33:09Z"
+      "last_ok": "2026-10-14T22:28:32Z"
     },
     "algorand_blog": {
       "ok": true,
       "label": "Algorand Blog",
       "error": null,
       "note": "10 artículos",
-      "checked_at": "2026-10-14T09:33:09Z",
+      "checked_at": "2026-10-14T22:28:32Z",
       "job": "official",
-      "last_ok": "2026-10-14T09:33:09Z"
+      "last_ok": "2026-10-14T22:28:32Z"
     },
     "ripple_xrp": {
       "ok": true,
       "label": "ripple.com/xrp",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-14T09:33:09Z",
+      "checked_at": "2026-10-14T22:28:32Z",
       "job": "official",
-      "last_ok": "2026-10-14T09:33:09Z"
+      "last_ok": "2026-10-14T22:28:32Z"
     },
     "cardano_home": {
       "ok": true,
       "label": "cardano.org · métricas",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-14T09:33:10Z",
+      "checked_at": "2026-10-14T22:28:32Z",
       "job": "official",
-      "last_ok": "2026-10-14T09:33:10Z"
+      "last_ok": "2026-10-14T22:28:32Z"
     },
     "cardanofoundation": {
       "ok": null,
       "label": "Cardano Foundation",
       "error": null,
       "note": "solo enlace: el sitio bloquea lectores automáticos (Vercel Security Checkpoint); las novedades oficiales se toman de cardano.org",
-      "checked_at": "2026-10-14T09:33:10Z",
+      "checked_at": "2026-10-14T22:28:32Z",
       "job": "official"
     }
   },
-  "generated_at": "2026-10-14T21:30:45Z"
+  "generated_at": "2026-10-14T22:28:32Z"
 }
