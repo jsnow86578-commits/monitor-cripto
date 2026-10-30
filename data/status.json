@@ -19,13 +19,13 @@
       "next_due": "2026-10-30T08:57:55Z"
     },
     "feargreed": {
-      "last_run": "2026-10-30T05:42:21Z",
+      "last_run": "2026-10-30T08:55:39Z",
       "ok": true,
-      "duration_s": 0.45,
+      "duration_s": 0.52,
       "error": null,
       "interval_s": 10800,
-      "last_ok": "2026-10-30T05:42:21Z",
-      "next_due": "2026-10-30T08:42:21Z"
+      "last_ok": "2026-10-30T08:55:39Z",
+      "next_due": "2026-10-30T11:55:39Z"
     },
     "history": {
       "last_run": "2026-10-30T07:58:03Z",
@@ -79,18 +79,18 @@
       "label": "Alternative.me",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-30T05:42:21Z",
+      "checked_at": "2026-10-30T08:55:39Z",
       "job": "feargreed",
-      "last_ok": "2026-10-30T05:42:21Z"
+      "last_ok": "2026-10-30T08:55:39Z"
     },
     "cmc_fng": {
       "ok": true,
       "label": "CoinMarketCap · Miedo y Codicia",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-30T05:42:21Z",
+      "checked_at": "2026-10-30T08:55:39Z",
       "job": "feargreed",
-      "last_ok": "2026-10-30T05:42:21Z"
+      "last_ok": "2026-10-30T08:55:39Z"
     },
     "coingecko_history": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-10-30T07:58:03Z"
+  "generated_at": "2026-10-30T08:55:39Z"
 }
