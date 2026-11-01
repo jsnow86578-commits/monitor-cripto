@@ -1,22 +1,22 @@
 {
   "jobs": {
     "prices": {
-      "last_run": "2026-11-01T20:33:03Z",
+      "last_run": "2026-11-01T21:34:49Z",
       "ok": true,
-      "duration_s": 0.98,
+      "duration_s": 0.69,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-11-01T20:33:03Z",
-      "next_due": "2026-11-01T21:33:03Z"
+      "last_ok": "2026-11-01T21:34:49Z",
+      "next_due": "2026-11-01T22:34:49Z"
     },
     "candles": {
-      "last_run": "2026-11-01T20:33:05Z",
+      "last_run": "2026-11-01T21:34:51Z",
       "ok": true,
-      "duration_s": 2.19,
+      "duration_s": 1.68,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-11-01T20:33:05Z",
-      "next_due": "2026-11-01T21:33:05Z"
+      "last_ok": "2026-11-01T21:34:51Z",
+      "next_due": "2026-11-01T22:34:51Z"
     },
     "feargreed": {
       "last_run": "2026-11-01T20:33:06Z",
@@ -37,13 +37,13 @@
       "next_due": "2026-11-02T01:37:20Z"
     },
     "fundamentals": {
-      "last_run": "2026-11-01T15:33:26Z",
+      "last_run": "2026-11-01T21:35:40Z",
       "ok": true,
-      "duration_s": 42.17,
+      "duration_s": 48.91,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-11-01T15:33:26Z",
-      "next_due": "2026-11-01T21:33:26Z"
+      "last_ok": "2026-11-01T21:35:40Z",
+      "next_due": "2026-11-02T03:35:40Z"
     },
     "official": {
       "last_run": "2026-11-01T16:36:11Z",
@@ -61,18 +61,18 @@
       "label": "CoinGecko",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T20:33:02Z",
+      "checked_at": "2026-11-01T21:34:49Z",
       "job": "prices",
-      "last_ok": "2026-11-01T20:33:02Z"
+      "last_ok": "2026-11-01T21:34:49Z"
     },
     "binance": {
       "ok": true,
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T20:33:05Z",
+      "checked_at": "2026-11-01T21:34:51Z",
       "job": "candles",
-      "last_ok": "2026-11-01T20:33:05Z"
+      "last_ok": "2026-11-01T21:34:51Z"
     },
     "alternative": {
       "ok": true,
@@ -106,25 +106,25 @@
       "label": "CoinGecko · perfil",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:32:49Z",
+      "checked_at": "2026-11-01T21:34:56Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:32:49Z"
+      "last_ok": "2026-11-01T21:34:56Z"
     },
     "coinmarketcap": {
       "ok": true,
       "label": "CoinMarketCap",
       "error": null,
       "note": "endpoint público",
-      "checked_at": "2026-11-01T15:32:51Z",
+      "checked_at": "2026-11-01T21:34:58Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:32:51Z"
+      "last_ok": "2026-11-01T21:34:58Z"
     },
     "messari": {
       "ok": false,
       "label": "Messari",
       "error": "HTTP 402 en api.messari.io: {\"x402Version\":2,\"error\":\"Payment Required\",\"resource\":{\"url\":\"https://api.messari.io/metrics/v2/assets\",\"description\":\"",
       "note": "taxonomía pública",
-      "checked_at": "2026-11-01T15:32:51Z",
+      "checked_at": "2026-11-01T21:34:58Z",
       "job": "fundamentals",
       "last_ok": "2026-10-20T13:40:44Z"
     },
@@ -133,7 +133,7 @@
       "label": "Glassnode",
       "error": null,
       "note": "requiere API key (plan pago para XRP/ADA/ALGO)",
-      "checked_at": "2026-11-01T15:32:51Z",
+      "checked_at": "2026-11-01T21:34:58Z",
       "job": "fundamentals"
     },
     "defillama": {
@@ -141,72 +141,72 @@
       "label": "DefiLlama",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:32:55Z",
+      "checked_at": "2026-11-01T21:35:05Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:32:55Z"
+      "last_ok": "2026-11-01T21:35:05Z"
     },
     "github": {
       "ok": true,
       "label": "GitHub",
       "error": null,
-      "checked_at": "2026-11-01T15:33:09Z",
+      "checked_at": "2026-11-01T21:35:21Z",
       "job": "fundamentals",
       "note": "con token",
-      "last_ok": "2026-11-01T15:33:09Z"
+      "last_ok": "2026-11-01T21:35:21Z"
     },
     "network_xrp": {
       "ok": true,
       "label": "XRPL · XRPScan",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:33:10Z",
+      "checked_at": "2026-11-01T21:35:23Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:33:10Z"
+      "last_ok": "2026-11-01T21:35:23Z"
     },
     "network_ada": {
       "ok": true,
       "label": "Cardano · Koios",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:33:13Z",
+      "checked_at": "2026-11-01T21:35:26Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:33:13Z"
+      "last_ok": "2026-11-01T21:35:26Z"
     },
     "network_algo": {
       "ok": true,
       "label": "Algorand Foundation · métricas",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:33:19Z",
+      "checked_at": "2026-11-01T21:35:32Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:33:19Z"
+      "last_ok": "2026-11-01T21:35:32Z"
     },
     "yahoo": {
       "ok": true,
       "label": "Yahoo Finance",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:33:22Z",
+      "checked_at": "2026-11-01T21:35:36Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:33:22Z"
+      "last_ok": "2026-11-01T21:35:36Z"
     },
     "cryptodaily": {
       "ok": true,
       "label": "Cryptodaily",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:33:22Z",
+      "checked_at": "2026-11-01T21:35:36Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:33:22Z"
+      "last_ok": "2026-11-01T21:35:36Z"
     },
     "yahoo_news": {
       "ok": true,
       "label": "Yahoo Finance · noticias",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:33:26Z",
+      "checked_at": "2026-11-01T21:35:40Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-01T15:33:26Z"
+      "last_ok": "2026-11-01T21:35:40Z"
     },
     "ripple_insights": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-11-01T20:33:06Z"
+  "generated_at": "2026-11-01T21:35:40Z"
 }
