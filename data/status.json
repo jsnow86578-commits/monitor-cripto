@@ -28,13 +28,13 @@
       "next_due": "2026-11-01T05:45:35Z"
     },
     "history": {
-      "last_run": "2026-10-31T23:31:35Z",
+      "last_run": "2026-11-01T05:43:25Z",
       "ok": true,
-      "duration_s": 8.68,
+      "duration_s": 8.27,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-10-31T23:31:35Z",
-      "next_due": "2026-11-01T05:31:35Z"
+      "last_ok": "2026-11-01T05:43:25Z",
+      "next_due": "2026-11-01T11:43:25Z"
     },
     "fundamentals": {
       "last_run": "2026-11-01T01:58:52Z",
@@ -70,9 +70,9 @@
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T04:48:11Z",
-      "job": "candles",
-      "last_ok": "2026-11-01T04:48:11Z"
+      "checked_at": "2026-11-01T05:43:25Z",
+      "job": "history",
+      "last_ok": "2026-11-01T05:43:25Z"
     },
     "alternative": {
       "ok": true,
@@ -97,9 +97,9 @@
       "label": "CoinGecko · historia",
       "error": null,
       "note": null,
-      "checked_at": "2026-10-31T23:31:33Z",
+      "checked_at": "2026-11-01T05:43:24Z",
       "job": "history",
-      "last_ok": "2026-10-31T23:31:33Z"
+      "last_ok": "2026-11-01T05:43:24Z"
     },
     "coingecko_profile": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-11-01T04:48:12Z"
+  "generated_at": "2026-11-01T05:43:25Z"
 }
