@@ -1,22 +1,22 @@
 {
   "jobs": {
     "prices": {
-      "last_run": "2026-11-01T15:32:42Z",
+      "last_run": "2026-11-01T16:36:07Z",
       "ok": true,
-      "duration_s": 0.86,
+      "duration_s": 0.92,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-11-01T15:32:42Z",
-      "next_due": "2026-11-01T16:32:42Z"
+      "last_ok": "2026-11-01T16:36:07Z",
+      "next_due": "2026-11-01T17:36:07Z"
     },
     "candles": {
-      "last_run": "2026-11-01T15:32:44Z",
+      "last_run": "2026-11-01T16:36:08Z",
       "ok": true,
-      "duration_s": 2.46,
+      "duration_s": 1.88,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-11-01T15:32:44Z",
-      "next_due": "2026-11-01T16:32:44Z"
+      "last_ok": "2026-11-01T16:36:08Z",
+      "next_due": "2026-11-01T17:36:08Z"
     },
     "feargreed": {
       "last_run": "2026-11-01T13:44:50Z",
@@ -46,13 +46,13 @@
       "next_due": "2026-11-01T21:33:26Z"
     },
     "official": {
-      "last_run": "2026-11-01T03:48:29Z",
+      "last_run": "2026-11-01T16:36:11Z",
       "ok": true,
-      "duration_s": 1.03,
+      "duration_s": 2.2,
       "error": null,
       "interval_s": 43200,
-      "last_ok": "2026-11-01T03:48:29Z",
-      "next_due": "2026-11-01T15:48:29Z"
+      "last_ok": "2026-11-01T16:36:11Z",
+      "next_due": "2026-11-02T04:36:11Z"
     }
   },
   "sources": {
@@ -61,18 +61,18 @@
       "label": "CoinGecko",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:32:41Z",
+      "checked_at": "2026-11-01T16:36:06Z",
       "job": "prices",
-      "last_ok": "2026-11-01T15:32:41Z"
+      "last_ok": "2026-11-01T16:36:06Z"
     },
     "binance": {
       "ok": true,
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T15:32:44Z",
+      "checked_at": "2026-11-01T16:36:08Z",
       "job": "candles",
-      "last_ok": "2026-11-01T15:32:44Z"
+      "last_ok": "2026-11-01T16:36:08Z"
     },
     "alternative": {
       "ok": true,
@@ -213,72 +213,72 @@
       "label": "Ripple Insights",
       "error": null,
       "note": "9 artículos",
-      "checked_at": "2026-11-01T03:48:28Z",
+      "checked_at": "2026-11-01T16:36:09Z",
       "job": "official",
-      "last_ok": "2026-11-01T03:48:28Z"
+      "last_ok": "2026-11-01T16:36:09Z"
     },
     "xrpl_blog": {
       "ok": true,
       "label": "XRPL.org Blog",
       "error": null,
       "note": "15 artículos",
-      "checked_at": "2026-11-01T03:48:28Z",
+      "checked_at": "2026-11-01T16:36:10Z",
       "job": "official",
-      "last_ok": "2026-11-01T03:48:28Z"
+      "last_ok": "2026-11-01T16:36:10Z"
     },
     "cardano_news": {
       "ok": true,
       "label": "Cardano.org",
       "error": null,
       "note": "15 artículos",
-      "checked_at": "2026-11-01T03:48:29Z",
+      "checked_at": "2026-11-01T16:36:10Z",
       "job": "official",
-      "last_ok": "2026-11-01T03:48:29Z"
+      "last_ok": "2026-11-01T16:36:10Z"
     },
     "algorand_news": {
       "ok": true,
       "label": "Algorand Foundation",
       "error": null,
       "note": "10 artículos",
-      "checked_at": "2026-11-01T03:48:29Z",
+      "checked_at": "2026-11-01T16:36:10Z",
       "job": "official",
-      "last_ok": "2026-11-01T03:48:29Z"
+      "last_ok": "2026-11-01T16:36:10Z"
     },
     "algorand_blog": {
       "ok": true,
       "label": "Algorand Blog",
       "error": null,
       "note": "10 artículos",
-      "checked_at": "2026-11-01T03:48:29Z",
+      "checked_at": "2026-11-01T16:36:10Z",
       "job": "official",
-      "last_ok": "2026-11-01T03:48:29Z"
+      "last_ok": "2026-11-01T16:36:10Z"
     },
     "ripple_xrp": {
       "ok": true,
       "label": "ripple.com/xrp",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T03:48:29Z",
+      "checked_at": "2026-11-01T16:36:10Z",
       "job": "official",
-      "last_ok": "2026-11-01T03:48:29Z"
+      "last_ok": "2026-11-01T16:36:10Z"
     },
     "cardano_home": {
       "ok": true,
       "label": "cardano.org · métricas",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-01T03:48:29Z",
+      "checked_at": "2026-11-01T16:36:11Z",
       "job": "official",
-      "last_ok": "2026-11-01T03:48:29Z"
+      "last_ok": "2026-11-01T16:36:11Z"
     },
     "cardanofoundation": {
       "ok": null,
       "label": "Cardano Foundation",
       "error": null,
       "note": "solo enlace: el sitio bloquea lectores automáticos (Vercel Security Checkpoint); las novedades oficiales se toman de cardano.org",
-      "checked_at": "2026-11-01T03:48:29Z",
+      "checked_at": "2026-11-01T16:36:11Z",
       "job": "official"
     }
   },
-  "generated_at": "2026-11-01T15:33:26Z"
+  "generated_at": "2026-11-01T16:36:11Z"
 }
