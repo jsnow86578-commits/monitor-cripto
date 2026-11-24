@@ -1,49 +1,49 @@
 {
   "jobs": {
     "prices": {
-      "last_run": "2026-11-23T21:11:25Z",
+      "last_run": "2026-11-24T05:53:16Z",
       "ok": true,
-      "duration_s": 0.75,
+      "duration_s": 1.01,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-11-23T21:11:25Z",
-      "next_due": "2026-11-23T22:11:25Z"
+      "last_ok": "2026-11-24T05:53:16Z",
+      "next_due": "2026-11-24T06:53:16Z"
     },
     "candles": {
-      "last_run": "2026-11-23T21:11:27Z",
+      "last_run": "2026-11-24T05:53:18Z",
       "ok": true,
-      "duration_s": 1.52,
+      "duration_s": 2.1,
       "error": null,
       "interval_s": 3600,
-      "last_ok": "2026-11-23T21:11:27Z",
-      "next_due": "2026-11-23T22:11:27Z"
+      "last_ok": "2026-11-24T05:53:18Z",
+      "next_due": "2026-11-24T06:53:18Z"
     },
     "feargreed": {
-      "last_run": "2026-11-23T21:11:28Z",
+      "last_run": "2026-11-24T05:53:18Z",
       "ok": true,
-      "duration_s": 0.66,
+      "duration_s": 0.46,
       "error": null,
       "interval_s": 10800,
-      "last_ok": "2026-11-23T21:11:28Z",
-      "next_due": "2026-11-24T00:11:28Z"
+      "last_ok": "2026-11-24T05:53:18Z",
+      "next_due": "2026-11-24T08:53:18Z"
     },
     "history": {
-      "last_run": "2026-11-23T21:11:36Z",
+      "last_run": "2026-11-24T05:53:27Z",
       "ok": true,
-      "duration_s": 8.24,
+      "duration_s": 8.55,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-11-23T21:11:36Z",
-      "next_due": "2026-11-24T03:11:36Z"
+      "last_ok": "2026-11-24T05:53:27Z",
+      "next_due": "2026-11-24T11:53:27Z"
     },
     "fundamentals": {
-      "last_run": "2026-11-23T21:12:26Z",
+      "last_run": "2026-11-24T05:54:15Z",
       "ok": true,
-      "duration_s": 50.42,
+      "duration_s": 48.63,
       "error": null,
       "interval_s": 21600,
-      "last_ok": "2026-11-23T21:12:26Z",
-      "next_due": "2026-11-24T03:12:26Z"
+      "last_ok": "2026-11-24T05:54:15Z",
+      "next_due": "2026-11-24T11:54:15Z"
     },
     "official": {
       "last_run": "2026-11-23T21:12:28Z",
@@ -61,70 +61,70 @@
       "label": "CoinGecko",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:11:25Z",
+      "checked_at": "2026-11-24T05:53:15Z",
       "job": "prices",
-      "last_ok": "2026-11-23T21:11:25Z"
+      "last_ok": "2026-11-24T05:53:15Z"
     },
     "binance": {
       "ok": true,
       "label": "Binance",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:11:36Z",
+      "checked_at": "2026-11-24T05:53:27Z",
       "job": "history",
-      "last_ok": "2026-11-23T21:11:36Z"
+      "last_ok": "2026-11-24T05:53:27Z"
     },
     "alternative": {
       "ok": true,
       "label": "Alternative.me",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:11:27Z",
+      "checked_at": "2026-11-24T05:53:18Z",
       "job": "feargreed",
-      "last_ok": "2026-11-23T21:11:27Z"
+      "last_ok": "2026-11-24T05:53:18Z"
     },
     "cmc_fng": {
       "ok": true,
       "label": "CoinMarketCap · Miedo y Codicia",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:11:28Z",
+      "checked_at": "2026-11-24T05:53:18Z",
       "job": "feargreed",
-      "last_ok": "2026-11-23T21:11:28Z"
+      "last_ok": "2026-11-24T05:53:18Z"
     },
     "coingecko_history": {
       "ok": true,
       "label": "CoinGecko · historia",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:11:34Z",
+      "checked_at": "2026-11-24T05:53:25Z",
       "job": "history",
-      "last_ok": "2026-11-23T21:11:34Z"
+      "last_ok": "2026-11-24T05:53:25Z"
     },
     "coingecko_profile": {
       "ok": true,
       "label": "CoinGecko · perfil",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:11:41Z",
+      "checked_at": "2026-11-24T05:53:32Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:11:41Z"
+      "last_ok": "2026-11-24T05:53:32Z"
     },
     "coinmarketcap": {
       "ok": true,
       "label": "CoinMarketCap",
       "error": null,
       "note": "endpoint público",
-      "checked_at": "2026-11-23T21:11:43Z",
+      "checked_at": "2026-11-24T05:53:34Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:11:43Z"
+      "last_ok": "2026-11-24T05:53:34Z"
     },
     "messari": {
       "ok": false,
       "label": "Messari",
       "error": "HTTP 402 en api.messari.io: {\"x402Version\":2,\"error\":\"Payment Required\",\"resource\":{\"url\":\"https://api.messari.io/metrics/v2/assets\",\"description\":\"",
       "note": "taxonomía pública",
-      "checked_at": "2026-11-23T21:11:43Z",
+      "checked_at": "2026-11-24T05:53:34Z",
       "job": "fundamentals",
       "last_ok": "2026-10-20T13:40:44Z"
     },
@@ -133,7 +133,7 @@
       "label": "Glassnode",
       "error": null,
       "note": "requiere API key (plan pago para XRP/ADA/ALGO)",
-      "checked_at": "2026-11-23T21:11:43Z",
+      "checked_at": "2026-11-24T05:53:34Z",
       "job": "fundamentals"
     },
     "defillama": {
@@ -141,72 +141,72 @@
       "label": "DefiLlama",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:11:52Z",
+      "checked_at": "2026-11-24T05:53:41Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:11:52Z"
+      "last_ok": "2026-11-24T05:53:41Z"
     },
     "github": {
       "ok": true,
       "label": "GitHub",
       "error": null,
-      "checked_at": "2026-11-23T21:12:07Z",
+      "checked_at": "2026-11-24T05:53:56Z",
       "job": "fundamentals",
       "note": "con token",
-      "last_ok": "2026-11-23T21:12:07Z"
+      "last_ok": "2026-11-24T05:53:56Z"
     },
     "network_xrp": {
       "ok": true,
       "label": "XRPL · XRPScan",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:12:09Z",
+      "checked_at": "2026-11-24T05:53:58Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:12:09Z"
+      "last_ok": "2026-11-24T05:53:58Z"
     },
     "network_ada": {
       "ok": true,
       "label": "Cardano · Koios",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:12:13Z",
+      "checked_at": "2026-11-24T05:54:01Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:12:13Z"
+      "last_ok": "2026-11-24T05:54:01Z"
     },
     "network_algo": {
       "ok": true,
       "label": "Algorand Foundation · métricas",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:12:19Z",
+      "checked_at": "2026-11-24T05:54:08Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:12:19Z"
+      "last_ok": "2026-11-24T05:54:08Z"
     },
     "yahoo": {
       "ok": true,
       "label": "Yahoo Finance",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:12:22Z",
+      "checked_at": "2026-11-24T05:54:11Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:12:22Z"
+      "last_ok": "2026-11-24T05:54:11Z"
     },
     "cryptodaily": {
       "ok": true,
       "label": "Cryptodaily",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:12:22Z",
+      "checked_at": "2026-11-24T05:54:11Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:12:22Z"
+      "last_ok": "2026-11-24T05:54:11Z"
     },
     "yahoo_news": {
       "ok": true,
       "label": "Yahoo Finance · noticias",
       "error": null,
       "note": null,
-      "checked_at": "2026-11-23T21:12:26Z",
+      "checked_at": "2026-11-24T05:54:15Z",
       "job": "fundamentals",
-      "last_ok": "2026-11-23T21:12:26Z"
+      "last_ok": "2026-11-24T05:54:15Z"
     },
     "ripple_insights": {
       "ok": true,
@@ -280,5 +280,5 @@
       "job": "official"
     }
   },
-  "generated_at": "2026-11-23T21:12:28Z"
+  "generated_at": "2026-11-24T05:54:15Z"
 }
